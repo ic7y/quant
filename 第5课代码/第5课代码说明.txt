@@ -1,0 +1,12 @@
+策略评估指标的代码在第3节课的代码包中：
+1.年化收益：backtest.py文件中的compute_annual_profit方法
+2.夏普比率：backtest.py文件中的compute_sharpe_ratio方法
+3.最大回撤：backtest.py文件中的compute_drawdown方法
+
+
+随机入市策略：
+在random_entry.py文件中，该策略需要在聚宽云平台环境下运行。
+1.首先登陆聚宽网站，申请聚宽账号。
+2.创建一个期货类策略。
+3.复制random_entry.py文件中的代码到新建的期货策略。
+4.设置回测开始时间和结束时间，回测周期设置为每分钟，点击回测后开始运行。
